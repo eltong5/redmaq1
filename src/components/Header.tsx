@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { NAV } from "../data/nav";
 // Or create src/data/nav.ts with a valid NAV export if it doesn't exist.
 import { Moon, Sun, Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 export default function Header({
   dark,
@@ -23,14 +24,21 @@ export default function Header({
   return (
     <header className="sticky top-0 z-50 backdrop-blur-lg bg-background/80 border-b border-border/50">
       <div className="container-x h-16 flex items-center justify-between">
-        {/* Logo */}
-        <a
-          href="#inicio"
-          className="text-xl md:text-2xl font-bold tracking-tight gradient-primary bg-clip-text text-transparent"
-          aria-label="REDMAQ COLOMBIA"
-        >
-          REDMAQ COLOMBIA
-        </a>
+     {/* Logo */}
+<a
+  href="#inicio"
+  className="flex items-center gap-2"
+  aria-label="REDMAQ COLOMBIA"
+>
+  <img 
+    src={logo} 
+    alt="REDMAQ COLOMBIA Logo" 
+    className="h-10 w-auto"
+  />
+  <span className="hidden md:inline text-xl md:text-2xl font-bold tracking-tight gradient-primary bg-clip-text text-transparent">
+    REDMAQ COLOMBIA
+  </span>
+</a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
