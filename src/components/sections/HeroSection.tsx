@@ -21,12 +21,10 @@ export default function HeroSection() {
       {/* Content */}
       <div className="container-x relative z-10 text-center text-white">
         <div className="max-w-4xl mx-auto fade-in">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 text-balance">
-            Red de Distribución de{" "}
-            <span className="bg-gradient-accent bg-clip-text text-transparent">
-              Maquinaria Pesada y equipos industriales y construcción
-            </span>
-          </h1>
+         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance"> {" "} 
+          <span className="bg-gradient-accent bg-clip-text text-transparent"> 
+            Maquinaria Pesada, equipos industriales y construcción. </span> 
+            </h1>
           
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto text-balance">
             Conectamos los sectores industriales, construcción y agrícolas con la maquinaria más avanzada
