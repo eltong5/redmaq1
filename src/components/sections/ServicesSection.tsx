@@ -49,7 +49,7 @@ export default function ServicesSection() {
           </span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-          Soluciones integrales para la industria de la construcción y desarrollo de proyectos
+          Soluciones integrales para la industria, construcción, sector agrícola y desarrollo de proyectos
         </p>
       </div>
 
